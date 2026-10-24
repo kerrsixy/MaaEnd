@@ -673,7 +673,7 @@
                     "name": "Yes"
                 }
             ],
-            "default_case": "No"
+            "default_case": "Yes"
         },
         "SeizeDeliveryJobsPostDeparturePreferZipline": {
             "type": "switch",
