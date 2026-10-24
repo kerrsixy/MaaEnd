@@ -32,7 +32,7 @@
             "win32": {
                 "class_regex": "UnityWndClass",
                 "window_regex": "Endfield",
-                "screencap": "ScreenDC",
+                "screencap": "FramePool",
                 "mouse": "Seize",
                 "keyboard": "Seize"
             }

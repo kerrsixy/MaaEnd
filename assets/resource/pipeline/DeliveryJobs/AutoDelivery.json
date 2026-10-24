@@ -17,6 +17,9 @@
         "next": [
             "[Anchor]DeliveryJobsAfterAutoDelivery"
         ],
+        "on_error": [
+            "DeliveryJobsTransferOngoingJob"
+        ],
         "focus": {
             "Node.Action.Failed": "$task.DeliveryJobs.AutoDeliveryFailed"
         }

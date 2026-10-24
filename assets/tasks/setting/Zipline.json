@@ -16,18 +16,17 @@
                         }
                     }
                 },
-                // 隐藏“始终启用”。
-                // {
-                //     "name": "Always",
-                //     "label": "$option.ZiplineRouting.cases.Always.label",
-                //     "pipeline_override": {
-                //         "MapNavigatorZiplinePreference": {
-                //             "attach": {
-                //                 "zipline": "always"
-                //             }
-                //         }
-                //     }
-                // },
+                {
+                    "name": "Always",
+                    "label": "$option.ZiplineRouting.cases.Always.label",
+                    "pipeline_override": {
+                        "MapNavigatorZiplinePreference": {
+                            "attach": {
+                                "zipline": "always"
+                            }
+                        }
+                    }
+                },
                 {
                     "name": "Never",
                     "label": "$option.ZiplineRouting.cases.Never.label",

@@ -709,7 +709,8 @@
                         }
                     }
                 }
-            ]
+            ],
+            "default_case": "OperatorProgression"
         },
         "ProtocolSpaceLevel": {
             "type": "select",

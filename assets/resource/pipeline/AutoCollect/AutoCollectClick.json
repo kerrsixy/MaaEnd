@@ -4,6 +4,17 @@
         "post_delay": 0,
         "next": [
             "AutoCollectClick",
+            "AutoCollectClickRetry",
+            "AutoCollectClickEnd"
+        ]
+    },
+    // 首次识别失败时等待画面静止后重试一次，避免偶发漏识别导致空手离开
+    "AutoCollectClickRetry": {
+        "pre_delay": 0,
+        "post_delay": 0,
+        "post_wait_freezes": 200,
+        "next": [
+            "AutoCollectClick",
             "AutoCollectClickEnd"
         ]
     },
@@ -12,10 +23,10 @@
             "type": "OCR",
             "param": {
                 "roi": [
-                    803,
-                    350,
-                    263,
-                    219
+                    560,
+                    280,
+                    560,
+                    360
                 ],
                 "expected": [
                     "原木",
@@ -112,7 +123,11 @@
                     "탈로스 버섯",
                     "金石稻",
                     "金石稲",
-                    "(?i)Amber Rice"
+                    "(?i)Amber Rice",
+                    "稀有真菌",
+                    "(?i)Rare Fungus",
+                    "希少な菌類",
+                    "희귀 진균"
                 ]
             }
         },

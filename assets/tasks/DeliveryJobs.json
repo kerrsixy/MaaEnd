@@ -248,7 +248,7 @@
                     }
                 }
             ],
-            "default_case": "Transfer"
+            "default_case": "AutoDelivery"
         },
         "DeliveryJobsQuoteThresholdOriginiumSciencePark": {
             "type": "input",
@@ -337,7 +337,7 @@
                     }
                 }
             ],
-            "default_case": "Transfer"
+            "default_case": "AutoDelivery"
         },
         "DeliveryJobsBelowMinimumQuoteActionOriginiumSciencePark": {
             "type": "select",
@@ -591,7 +591,7 @@
                     }
                 }
             ],
-            "default_case": "Transfer"
+            "default_case": "AutoDelivery"
         },
         "DeliveryJobsQuoteThresholdOriginLodespring": {
             "type": "input",
@@ -680,7 +680,7 @@
                     }
                 }
             ],
-            "default_case": "Transfer"
+            "default_case": "AutoDelivery"
         },
         "DeliveryJobsBelowMinimumQuoteActionOriginLodespring": {
             "type": "select",
@@ -934,7 +934,7 @@
                     }
                 }
             ],
-            "default_case": "Transfer"
+            "default_case": "AutoDelivery"
         },
         "DeliveryJobsQuoteThresholdPowerPlateau": {
             "type": "input",
@@ -1023,7 +1023,7 @@
                     }
                 }
             ],
-            "default_case": "Transfer"
+            "default_case": "AutoDelivery"
         },
         "DeliveryJobsBelowMinimumQuoteActionPowerPlateau": {
             "type": "select",
@@ -1304,7 +1304,7 @@
                     }
                 }
             ],
-            "default_case": "Transfer"
+            "default_case": "AutoDelivery"
         },
         "DeliveryJobsQuoteThresholdWulingCity": {
             "type": "input",
@@ -1393,7 +1393,7 @@
                     }
                 }
             ],
-            "default_case": "Transfer"
+            "default_case": "AutoDelivery"
         },
         "DeliveryJobsBelowMinimumQuoteActionWulingCity": {
             "type": "select",
@@ -1647,7 +1647,7 @@
                     }
                 }
             ],
-            "default_case": "Transfer"
+            "default_case": "AutoDelivery"
         },
         "DeliveryJobsQuoteThresholdTestArea": {
             "type": "input",
@@ -1736,7 +1736,7 @@
                     }
                 }
             ],
-            "default_case": "Transfer"
+            "default_case": "AutoDelivery"
         },
         "DeliveryJobsBelowMinimumQuoteActionTestArea": {
             "type": "select",

@@ -654,7 +654,7 @@
                     }
                 }
             ],
-            "default_case": "Disable"
+            "default_case": "TeleWalkFetchDeliver"
         },
         "SeizeDeliveryJobsPostDepartureRiskAcknowledgement": {
             "type": "switch",
